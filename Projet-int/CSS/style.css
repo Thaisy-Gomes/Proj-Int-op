@@ -1,0 +1,88 @@
+/*Global*/
+body {
+  font-family: 'roboto', sans-serif;
+  background-color: #DAA520;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.fadeIn {
+  animation: fadeIn 1s linear;
+}
+@keyframes fadeIn {
+  from{ opacity: 0;
+  }
+  to{ opacity: 1; 
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.nav-link {
+  color: #DAA520;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  left: 750px;
+  top: 420px;
+  border: none;
+  color: white;
+  padding: 25px 165px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 200px;
+  background-color: #000;
+}
+.logoafro {
+  width: 50vh;
+  height: 50vh;
+  margin-top: 25%;
+}
+
+.contlogo {
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+}
+
+.conteudo {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.t1{
+  color: black;
+  left: 750px;
+  top: 180px;
+  font-size: 50px;
+}
+
+.sub{
+  color: black;
+  left: 750px;
+  top: 235px;
+  font-size: 35px;
+  font-family: 'Roboto Slab', serif;
+}
+
+#about {
+  background-color: #000;
+}
+
